@@ -1329,7 +1329,7 @@ with col_settings:
             st.caption("赤枠点滅の設定")
             col1, col2 = st.columns(2)
             with col1: 
-                border_width_red = st.slider("枠線の太さ", 15, 45, st.session_state.border_width_red, key="border_width_red")
+                border_width_red = st.slider("枠線の太さ", 15, 45, key="border_width_red")
             with col2: 
                 border_colors = st.multiselect("枠線の色", ["red", "blue", "green", "black", "orange"], default=["red"], key="border_colors")
             
