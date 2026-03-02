@@ -1,0 +1,6 @@
+streamlit
+pillow
+apng
+streamlit-cropper
+opencv-python
+numpy
